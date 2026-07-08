@@ -14,7 +14,6 @@ import com.example.Reviewrave.Service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://127.0.0.1:5501")
 public class AuthController {
 
     private  final AuthService authService;
