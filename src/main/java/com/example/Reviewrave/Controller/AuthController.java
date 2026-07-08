@@ -23,7 +23,7 @@ public class AuthController {
         this.authService = authService;
     }
 
-    @PostMapping("/login")
+    @PostMapping("/index")
     public String login(@RequestBody LoginRequestDto dto) {
         return authService.login(dto);
     }
