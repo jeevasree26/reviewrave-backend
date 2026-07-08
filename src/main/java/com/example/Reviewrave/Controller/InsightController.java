@@ -12,7 +12,6 @@ import com.example.Reviewrave.Service.InsightService;
 
 @RestController
 @RequestMapping("/api/insights")
-@CrossOrigin(origins = "http://localhost:3000")
 public class InsightController {
 
     private  final InsightService insightService;
