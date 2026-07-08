@@ -15,7 +15,7 @@ import com.example.Reviewrave.Dto.ReviewRequestDto;
 import com.example.Reviewrave.Entity.CustomerReview;
 import com.example.Reviewrave.Service.ReviewService;
 
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import org.springframework.web.bind.annotation.RequestBody;
 import jakarta.validation.Valid;
 
 @RestController
